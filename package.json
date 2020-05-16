@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielgwon/Project-2020Spring-Gwon-Daniel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielgwon/Project-2020Spring-Gwon-Daniel/issues"
+  },
+  "homepage": "https://github.com/danielgwon/Project-2020Spring-Gwon-Daniel#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "forever": "^2.0.0",
+    "nodemon": "^2.0.4"
+  }
+}

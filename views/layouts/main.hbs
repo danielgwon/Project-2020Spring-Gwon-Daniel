@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS290 - Portfolio Project - Daniel Gwon</title>
+
+    {{!-- ------------------------------Local Stylesheet------------------------------ --}}
+    <link rel="stylesheet" href="/css/styles.css">
+
+    {{!-- ------------------------------Icon Library CDN------------------------------ --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    {{!-- ------------------------------Bootstrap CDN------------------------------ --}}
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    {{!-- ------------------------------NAVIGATION------------------------------ --}}
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">About Me <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    {{{body}}}
+
+    {{!-- ------------------------------FOOTER------------------------------ --}}
+    <div class="container-fluid">
+        <footer class="white-section" id="footer">
+            <div class="container-fluid">
+                <p>Daniel Gwon - Boston, MA</p>
+                <a href="https://github.com/danielgwon" class="fa fa-github"></a>
+                <a href="https://www.linkedin.com/in/dgwon/" class="fa fa-linkedin"></a>
+                <a href="https://twitter.com/dgwons" class="fa fa-twitter"></a>
+            </div>
+        </footer>
+    </div>
+
+    {{!-- ------------------------------jQuery------------------------------ --}}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    {{!-- Need a name for other javascript file (if it's needed) --}}
+    <script src="/index.js" charset="UTF-8"></script>
+</body>
+
+</html>
