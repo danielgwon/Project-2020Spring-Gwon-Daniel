@@ -21,15 +21,15 @@
 <body>
 
     {{!-- ------------------------------NAVIGATION------------------------------ --}}
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-md navbar-dark">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <div class="container collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="/">About Me <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -51,22 +51,22 @@
     {{{body}}}
 
     {{!-- ------------------------------FOOTER------------------------------ --}}
-    <div class="container-fluid">
-        <footer class="white-section" id="footer">
-            <div class="container-fluid">
-                <p>Daniel Gwon - Boston, MA</p>
-                <a href="https://github.com/danielgwon" class="fa fa-github"></a>
-                <a href="https://www.linkedin.com/in/dgwon/" class="fa fa-linkedin"></a>
-                <a href="https://twitter.com/dgwons" class="fa fa-twitter"></a>
-            </div>
-        </footer>
-    </div>
+    <footer>
+        <div class="container-fluid">
+
+            <p>Daniel Gwon - Boston, MA</p>
+            <a href="https://github.com/danielgwon" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/dgwon/" class="fa fa-linkedin"></a>
+            <a href="https://twitter.com/dgwons" class="fa fa-twitter"></a>
+
+        </div>
+    </footer>
 
     {{!-- ------------------------------jQuery------------------------------ --}}
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     {{!-- Need a name for other javascript file (if it's needed) --}}
-    <script src="/index.js" charset="UTF-8"></script>
+    <script src="/script.js" charset="UTF-8"></script>
 </body>
 
 </html>

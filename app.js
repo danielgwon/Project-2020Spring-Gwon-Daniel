@@ -17,27 +17,22 @@ app.use(express.urlencoded({
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    console.log("root working");
     res.render('home');
 });
 
 app.get('/experience', (req, res) => {
-    console.log("experience working");
     res.render('experience');
 });
 
 app.get('/portfolio', (req, res) => {
-    console.log("portfolio working");
     res.render('portfolio');
 });
 
 app.get('/contact', (req, res) => {
-    console.log("contact working");
     res.render('contact');
 });
 
 app.get('/blog', (req, res) => {
-    console.log("blog working");
     res.render('blog');
 });
 

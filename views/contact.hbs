@@ -1,20 +1,27 @@
-<h1>Contact</h1>
+<section class="dark-section">
+    <div class="container">
+        <h1>Contact</h1>
 
-<form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="POST"
-    id="contact-form">
-    <div class="form-group">
-        <input id="contact-name" class="form-field js-field-name" type="text" name="contact-name" placeholder="Your name" required>
-        <span class="form-validation"></span>
-    </div>
-    <div class="form-group">
-        <input id="contact-email" class="form-field js-field-email" type="email" name="contact-email" placeholder="Your e-mail" required>
-        <span class="form-validation"></span>
-    </div>
-    <div class="form-group">
-        <textarea id="contact-message" class="form-field js-field-message" name="contact-message" placeholder="Your message"
-            required></textarea>
-        <span class="form-validation"></span>
-    </div>
+        <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+            method="POST" id="contact-form">
+            <div class="form-group">
+                <input id="contact-name" class="form-field js-field-name" type="text" name="contact-name"
+                    placeholder="Your name" required>
+                <span class="form-validation"></span>
+            </div>
+            <div class="form-group">
+                <input id="contact-email" class="form-field js-field-email" type="email" name="contact-email"
+                    placeholder="Your e-mail" required>
+                <span class="form-validation"></span>
+            </div>
+            <div class="form-group">
+                <textarea id="contact-message" class="form-field js-field-message" name="contact-message"
+                    placeholder="Your message" rows="8" required></textarea>
+                <span class="form-validation"></span>
+            </div>
 
-    <button class="site-btn site-btn--form" type="submit" value="Send">Send</button>
-</form>
+            <button class="btn site-btn site-btn--form btn-secondary" type="submit" value="Send">Send</button>
+        </form>
+
+    </div>
+</section>
