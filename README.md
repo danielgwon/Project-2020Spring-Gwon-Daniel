@@ -1,14 +1,14 @@
 # Project-2020Spring-Gwon-Daniel
 CS290 Portfolio Project
 
-###Technologies
+### Technologies
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
 - jQuery
 
-###Features
+### Features
 - contains pictures
 - homepage and subpages
 - carousel animation implemented with vanilla-JS
