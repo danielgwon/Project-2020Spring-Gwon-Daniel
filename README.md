@@ -5,6 +5,7 @@ CS290 Portfolio Project
 - HTML
 - CSS
 - JavaScript
+- Handlebars
 - Bootstrap
 - jQuery
 
